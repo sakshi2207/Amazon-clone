@@ -4,7 +4,7 @@ import moment from "moment";
 import CheckoutProduct from "./CheckoutProduct";
 import CurrencyFormat from "react-currency-format";
 
-function Order() {
+function Order({order}) {
     return (
         <div>
             <h2>Orders</h2>
